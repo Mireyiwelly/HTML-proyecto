@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Page Title</title>
+    <meta name="description" content="Roughly 155 characters">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+	<style>
+	</style>
+  </head>
+  <body>
+    <!-- Header -->
+	<main>
+		<article class ="animales">
+			<img src = "https://content.nationalgeographic.com.es/medio/2018/03/23/colores-verdaderos_addc39af.jpg" alt="Mandril">
+			<h2> Mandril </h2>
+			<h4>Porque está en peligro de extinción </h4>
+			<p>El estilo lo es todo cuando vives en un grupo tan grande como el de un mandril. 
+			Con una tropa de 1.300 ejemplares una vez registrada en los bosques de Gabón, 
+			se cree que los mandriles forman los grupos sociales más grandes de primates no humanos. 
+			Con sus llamativas caras y ojos, han evolucionado para exhibir la coloración más espectacular de cualquier especie de mamífero,
+			cuya intensidad indica su estado social y sexual. Lamentablemente, no es solo su apariencia lo que es atractivo. 
+			La carne de mandril se considera un manjar en el oeste de África, y es parte de un comercio en crecimiento, 
+			con toneladas de carne de animales silvestres introducidas de contrabando en el oeste de Europa a diario. 
+			Debido a que los mandriles viven en grupos tan grandes, gran parte de su población puede caer en el comercio en auge en una sola cacería.
+			La tala y la agricultura también están limitando sus lugares de refugio,
+			por lo que estos notables animales necesitan urgentemente una protección más eficaz.</p>
+		</article>
+		<article class="animales">
+			<img src = "https://content.nationalgeographic.com.es/medio/2018/03/23/slipping-away_31ed6866.jpg" alt="Osos polares">
+			<h2> Osos polares </h2>
+			<h4>Calentamiento Global</h4>
+			<p>Los osos polares dependen del hielo marino para atrapar su presa. 
+			Se abalanzan sobre las focas cuando emergen a través de sus respiraderos y las acechan mientras toman el sol al aire libre,
+			pero el hielo se está derritiendo a medida que nuestro clima se calienta. En los trece inviernos que siguen al año 2003 
+			se produjeron las trece extensiones de hielo más pequeñas registradas por los satélites.
+			Las temporadas de caza son cada vez más cortas, y por cada semana de hielo que se pierde en los inviernos del Ártico,
+			los osos polares pierden alrededor 7 kg de grasa.</p>
+		</article>
+		<article class="animales">
+			<img src = "https://content.nationalgeographic.com.es/medio/2018/03/23/un-grito-de-ayuda_d8e6aca3.jpg" alt="Lémures">
+			<h2> Lémures </h2>
+			<h4>Un grito de ayuda </h4>
+			<p>Solo queda el 10% de los bosques históricos de Madagascar, los cuales sustentan a estos lémures en peligro crítico. 
+			Con una gran pasión por el néctar, se cree que los lémures son los polinizadores más grandes del mundo. 
+			A diferencia de la mayoría de los primates, dan a luz a grandes camadas, por lo que prosperan en cautiverio, 
+			donde las tasas de supervivencia son altas. Pero debido a que han sido criados a partir de un grupo genético muy pequeño, 
+			las reintroducciones posteriores entrañan muchas complicaciones. Su conservación se logrará cuando simplemente los dejemos 
+			en paz en un dosel de selva virgen. </p>
+		</article>
+		<article class="animales">
+			<img src = "https://content.nationalgeographic.com.es/medio/2018/03/23/un-grito-de-ayuda_ac5db8a2.jpg" alt="Lemúr rufo blanco y negro del este de Madagascar">
+			<h2> Lémur rufo blanco y negro del este de Madagascar </h2>
+			<h4> Objetivo de los cazadores furtivos </h4>
+			<p>El lémur rufo blanco y negro del este de Madagascar tiene una de las voces más fuertes de todos los primates del mundo. 
+			Sin embargo, estas llamadas de alarma se han convertido en una responsabilidad peligrosa, ya que los cazadores furtivos 
+			pueden cazar a los lémures con facilidad para obtener su carne. </p>
+		</article>
+		<article class="animales">
+			<img src = "https://content.nationalgeographic.com.es/medio/2018/03/23/nacidos-en-dificultades_960fe7bc.jpg" alt="Huevos de rana arborícora">
+			<h2> Huevos de rana arborícora </h2>
+			<h4>Nacidos en dificultades </h4>
+			<p>Los huevos de la rana arborícola de ojos amarillos miden alrededor de 3 mm de ancho. Ayer, los embriones no tenían ojos y,
+			mañana, se volverán oscuros, como renacuajos. Si bien la tasa de gestación es precisa, responde a la temperatura, y el cambio 
+			climático está haciendo que las ranas eclosionen temprano o tarde, confundiendo a los depredadores y perturbando toda la cadena
+			alimentaria.</p>
+		</article>
+		<article class="animales">
+			<img src = "https://content.nationalgeographic.com.es/medio/2018/03/23/nacidos-en-dificultades_f4608fe6_1015x647.jpg" alt="Anfíbios en peligro de extinción">
+			<h2> Anfíbios en peligro de extinción </h2>
+			<h4>Nacidos en dificultades</h4>
+			<p>El clima cambiante también está fomentando la propagación de un hongo mortal conocido como el hongo quítrido de los anfibios. 
+			Los bosques de tierras bajas se vuelven más cálidos, pero a medida que aumenta la humedad, se forman nubes más gruesas en las 
+			montañas y el hábitat de estas ranas se vuelve mucho más frío. Como las ranas son ectotérmicas -dependen de fuentes externas 
+			para el calor corporal-, su sistema inmunitario se debilita y el hongo quítrido prospera. La enfermedad resultante, la quitridiomicosis,
+			tiene anfibios afectados en todo el mundo, infectando y destruyendo más especies de vertebrados que cualquier enfermedad en la historia 
+			registrada. Un tercio de las especies de anfibios ahora están en peligro de extinción; alrededor de 120 ya se han perdido. </p>
+		</article>
+		<article class="animales">
+			<img src = "https://content.nationalgeographic.com.es/medio/2018/03/23/olm_42273c92.png" alt="Olm">
+			<h2> Olm, un curioso organismo </h2>
+			<p>Hace 66 millones de años, cuando el impacto de un meteorito destruyó la mayoría de las formas de vida de la Tierra,
+			el olm siguió nadando. Había surgido alrededor de 80 millones de años antes, en las cuevas más oscuras de lo que ahora 
+			es Europa del Este, y sin ninguna dependencia de la luz solar, apenas notó la quinta extinción masiva de la Tierra.
+			<br>
+			Debido a que es ciego, el olm no ha desarrollado el colorido patrón de sus primos anfibios tropicales, y casi no tiene 
+			pigmentación alguna. Sin vergüenza, se orienta con el olfato, el oído, la electrosensibilidad y, se cree, que incluso 
+			detectando los campos magnéticos de la Tierra. Vive hasta cien años y puede sobrevivir durante diez años sin comida, 
+			pero necesita agua limpia. Los bosques que se encuentran sobre su hábitat actúan como purificadores, pero a medida 
+			que se convierten en tierras de cultivo, los contaminantes penetran su hogar subterráneo. Por primera vez en la larga 
+			y larga historia del olm, se ha vuelto vulnerable. </p>
+		</article>
+		<article class="animales">
+			<img src = "https://content.nationalgeographic.com.es/medio/2018/03/23/un-lento-progreso_3d641676_1015x647.jpg" alt="Tortuga angonoka">
+			<h2> Tortuga angonoka </h2>
+			<h4>Un lento progreso </h4>
+			<p>La tortuga más rara del mundo tarda 15 años en alcanzar la edad de cría. Esto hace que cada huevo robado, 
+			o cada árbol o arbusto talado sea un revés aplastante para esta especie al borde de la extinción. Se creía 
+			que la tortuga angonoka - Astrochelys yniphora- ya había desaparecido, pero en 1984 fue redescubierta en el 
+			noroeste de Madagascar. Durrell Wildlife Conservation Trust lanzó rápidamente un programa de cría en cautividad.
+			En 1998, el único hábitat la tortuga angonoka fue nombrado oficialmente Parque Nacional -el primero creado para 
+			proteger una sola especie- y la Fundación Durrell logró liberar a cien individuos en libertad. Su redescubrimiento 
+			de también lo convirtió en uno de los animales más deseables del mundo para los vendedores ilícitos de especies raras 
+			y conchas ornamentales; cada éxito conservador se ha logrado en una lucha constante con este poderoso comercio ilegal 
+			internacional. Recientemente, la caza furtiva se ha intensificado, y todas las liberaciones en la naturaleza se han 
+			suspendido mientras los guardias luchan para asegurar el área, que ahora contiene solo unos pocos cientos de individuos. </p>
+		</article>
+		<article class="animales">
+			<img src = "https://content.nationalgeographic.com.es/medio/2018/03/23/decadencia-silenciosa_31132ef3.jpg" alt="Pangolín">
+			<h2>Pangolín</h2>
+			<h4>Decadencia silenciosa</h4>
+			<p>Se estima que más de un millón de pangolines se comercializaron ilegalmente entre 2007 y 2017, convirtiéndolos en 
+			los mamíferos más comercializados del mundo. Son tímidos, sin dientes, en su mayoría nocturnos, y se quedan inmóviles 
+			cuando tienen miedo. Envueltos por una armadura de escamas de queratina, esta defensa los protege de sus depredadores 
+			históricos, pero los humanos simplemente pueden recogerlos y llevárselos.
+			<br>Los pangolines poseen una herencia evolutiva única,
+			habiéndose separado de otros mamíferos mientras los dinosaurios todavía caminaban la tierra. Hay cuatro especies en África y 
+			cuatro en Asia; todos son ahora vulnerables a la extinción y dos están en peligro crítico.</p>
+		</article>
+		<article class="animales">
+			<img src = "https://content.nationalgeographic.com.es/medio/2018/03/23/obra-de-amor_8525e343.jpg" alt="Gorila occidental de las tierras bajas">
+			<h2> Gorila occidental de las tierras bajas </h2>
+			<h4>Obra de amor </h4>
+			<p>Este es Djala, un gorila occidental de las tierras bajas, fotografiado en un santuario inglés dirigido por la Fundación Aspinall.
+			Fue rescatado en Gabón en la década de 1980 cuando era un bebé, después de haber visto a toda su familia asesinada por cazadores furtivos. 
+			En el centro de rescate, superó gradualmente los profundos traumas de su niñez, y 30 años después fue llevado a casa, a los bosques de 
+			Gabón con su nueva familia. En la naturaleza, su salud ha mejorado: los bultos sobre su ojo izquierdo retrocedieron, perdió exceso de peso 
+			y continúa vivo a pesar de su vejez. El rescate y la reintroducción de gorilas es costoso, y algunos conservacionistas critican el enfoque, 
+			argumentando que los fondos podrían usarse con más eficacia para defender a estos animales en peligro de extinción en la naturaleza. </p>
+		</article>
+		<article class="animales">
+			<img src = "https://content.nationalgeographic.com.es/medio/2018/03/23/mas-que-humano_1d341cef.jpg" alt="Chimpancé común">
+			<h2> Chimpancé común </h2>
+			<h4> Más que humano </h4>
+			<p>La deforestación se ha producido más lentamente en el oeste de África Central, al menos en comparación con otras regiones tropicales 
+			en el extranjero. El hábitat del chimpancé común se ha mantenido relativamente intacto, y sin embargo, se han perdido alrededor de las 
+			tres cuartas partes de su población en el último siglo. Esto es debido a que son ampliamente cazados por su carne, que se consume localmente
+			y también se transporta de contrabando al extranjero. La agricultura, la tala de árboles, la extracción de petróleo, la minería y la construcción 
+			de carreteras atraviesan los bosques y fragmentan sus comunidades unidas. En la cultura africana tradicional, los chimpancés usualmente son 
+			representados como indignos de confianza. Su similitud con nuestra propia especie los hace parecer perversamente subversivos. Su extraordinario 
+			parecido es fascinante para nosotros, pero para ellos puede ser devastador; ellos también son susceptibles a los brotes de ántrax, Ébola y 
+			enfermedad respiratoria. A medida que profundicemos en sus territorios, las amenazas serán cada vez más severas. </p>
+		</article>
+		<article class="animales">
+			<img src = "https://content.nationalgeographic.com.es/medio/2018/03/23/la-jungla-de-hormigon_00ea04c0_1200x765.jpg" alt="Tamarino multicolor">
+			<h2> Tamarino multicolor </h2>
+			<h4>La jungla de hormigón</h4>
+			<p>TEl tamarino multicolor ha evolucionado en una pequeña área en el noreste de la selva amazónica. Su hábitat junto al río proporcionaba 
+			todas las presas y vegetación que necesitaban, pero a fines del siglo XVII se produjo un asentamiento humano. Este asentamiento ahora se ha 
+			convertido en el puerto de Manaus, una capital regional con más de dos millones de residentes. Gran parte del hogar de tamarino ha sido pavimentado, 
+			y aunque se puede encontrar en algunas áreas protegidas, el tamarino de manos rojas, especie invasora, le está "robando" la mayor parte de los 
+			alimentos y el poco hábitat que les queda. A diferencia de algunas especies de monos, el tamarino de varios colores no ha podido adaptarse a la 
+			vida urbana, y con frecuencia es asesinado por perros, automóviles y líneas eléctricas cuando cruza la ciudad entre fragmentos de bosque aislados. 
+			La presión económica continúa empujando a Manaus a crecer, haciendo que la extinción de este primate tan intrigante sea una posibilidad cada vez más real.
+			</p>
+		</article>
+	</main>
+	<!-- Footer -->
+  </body>
+</html>
