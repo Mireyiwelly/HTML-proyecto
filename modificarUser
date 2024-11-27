@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>EditarUsuario</title>
+		
+	</head>
+	<body>
+		<h1>EDITAR USUARIO</h1>
+		<form>
+			<img src = "user.png" alt="Editar foto perfil" class="AvatarUsuario">
+			<br>
+			<input type="file" accept="image/*">
+			<br>
+			<label for="usuario">Cambiar Usuario: </label>
+			<input id="usuario" type="text" name="usuario" autofocus="autofocus" required>
+			<br>
+			<label for="password">Cambiar Contraseña: </label>
+			<input id="password" type="password" name="contraseña" required>
+			<br>
+			<label for="password">Confirmar Contraseña: </label>
+			<input type="password" name="contraseña" required>
+		</form>
+	</body>
+</html>
