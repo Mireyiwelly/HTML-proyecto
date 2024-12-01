@@ -1,0 +1,40 @@
+ <main>
+  <!--Los h4 van en cursiva-->
+	<h1>Animales rescatados del peligro de extinción</h1>	
+	<article class ="animales">
+		<img src = "imagenes/animales/ballena_gris.jpg" alt="Ballena gris">
+		<h2> Ballena Gris </h2>
+		<h4>Eschrichtius robustus</h4>
+		<p>Este cetáceo de hasta 15 metros de longitud y 20 toneladas de peso estuvo a punto de 
+		extinguirse durante el siglo XIX debido a la caza de ballenas. Hoy, sin embargo, su población ronda los 27.000 
+		ejemplares y su situación no es tan preocupante.</p>
+	</article>
+	<article class ="animales">
+		<img src = "imagenes/animales/aguila_calva.jpg" alt="Águila calva">
+		<h2> Águila calva  </h2>
+		<h4>Haliaeetus leucocephalus </h4>
+		<p>Es otro de los animales salvados de la extinción que pasó de tener 417 parejas en 1960 a más 100.000 ejemplares
+		en la actualidad. Además, su población continúa creciendo.</p>
+	</article>
+	<article class ="animales">
+		<img src = "imagenes/animales/onix.jpg" alt="órix">
+		<h2> Órix de Arabia  </h2>
+		<h4>Oryx leucoryx </h4> 
+		<p>Este bello antílope llegó a desaparecer en estado salvaje por culpa de la caza. Hoy, gracias a la cría en cautividad
+		y la posterior reintroducción en su hábitat, se ha conseguido una población en libertad de unos 1.220 ejemplares.</p>
+	</article>
+	<article class ="animales">
+		<img src = "imagenes/animales/lince.jpg" alt="Lince Siberiano">
+		<h2> Lince ibérico  </h2>
+		<h4>Lynx pardinus</h4>
+		<p>Este felino único en el mundo supone todo un reto para la cría en cautividad por su baja tasa de éxito. No obstante,
+		y aunque continúa en una situación muy vulnerable, su población actual es de 156 ejemplares adultos y sigue in crescendo.</p>
+	</article>
+	<article class ="animales">
+		<img src = "imagenes/animales/tigre.jpg" alt="Tigre siberiano">
+		<h2> Tigre siberiano </h2>
+		<h4>Panthera tigris altaica</h4>
+		<p> Es uno de los felinos más grandes del planeta y otro de los animales salvados de la extinción: a mediados del siglo XX 
+		apenas quedaban 40 ejemplares en libertad, mientras hoy suman unos 450.</p>
+	</article>
+  </main>
