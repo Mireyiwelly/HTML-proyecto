@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Page Title</title>
+    <meta name="description" content="Roughly 155 characters">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+	<style>
+	</style>
+  </head>
+  <body>
+  	<header>
+		<nav>
+			<img src="./img/Logo.jpg"  alt="SAVE ANIMALS" width="50" height="50">
+			<a href="INDEX.html">HALLUCIGENIA</a>
+			<form method="get" id="search-form">
+			 <fieldset>
+				<input type="text" id="search-input" placeholder="Buscar" />
+				<input class="search-button" type="submit" value="Buscar" />
+				<i class="search-icon"></i>
+			 </fieldset>
+			</form>
+			<form action="InicioSesion.html">
+				<button type="submit" >Iniciar sesión / Registrarse</button>
+			</form>
+			<a href="perfil.html">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAArlJREFUSEvFlluIjlEUhp9xiqSEyaFEzuVKIqKUXKLkgiuhFCkhhJqUUyQhUhQlFwp3uOKC5JCQU+RULhAhLhwS4nuntf/2v9vf3t/8M5pVU9P/7bXedXzXaqKTpKmTcGkrcBdgMjACGGJOvwVeAreAv1UDqQo8DNgMzAf6lxj/AJwFdgKvcw7kgHsALcCGwqD+ryI/gR3mwJ8yhRTwYOBc8TexClrkzRXL0KeYfhnwcOAGMKhBUKem2k8BPoZ2YsB9gdvAyHaCOvW7wHTgh28vBnwcWJIB/Q08tTfjgK6Z97uBjSngscATSI7ZGWAF4Go3oBito8C8BPh3QOVT57dKGLEMLEsYUNo0x2G3quPvA4q+TLYWc74lBqx0fQb6JJRXAodLvq8tdPcmdFWammN+xDOAy5lazQYulLzRN41fSsYAz8NULwJOZBTXAPsbjFhqc51zfsTrgD0Z4EfABEBd7Us34DEwOqO/GjgQRpyrkbN5Glhu/aDfmoEjma52usLYFwIvBE5lPHafFbHGrrtFmZtjp7cAkON14yRqE03+T5lkrFgHrF37zlIXA9euFfGrqxXtN3vUGxgPzDFqLHP8DTDU7eyQQDSjYqVQ7gGLjSRSGVFEJ4uSiQFDUW1V41YJgUdZNOpSJ+8touh6iwDoMnkI9PO+/bKrpXYgxJbEMWCpp/QFmFWk8k7F4mt/XyrmXVvOyUFgla8fA5anN4OZ/ApsBw55tQ39ENXK+KaCD1R3Jw+AaYBs1KTsENAxdx0YGFjXlrkIXAOe2TrU3hbdzgR6Be9f2SGgctVJ6vRRrc4bU1XMct2zq0YqbTp9nIWetsrWV1j2TkfH3jZgV2R9ZlMdRigOVu207P2m8d8pnToSdG20+7wNHRA1TgV0Z+sKFanooH9hjNThB30jNU7q5A76Dgd0Bv8BIyR2H9l/W1MAAAAASUVORK5CYII=" alt=""/>
+			</a>
+		</nav>
+		<nav>
+			<span>&#9776;</span>
+			
+			<ul>
+				<li><a href="AnimalesSalvados.html" target="_blank">Animales rescatados</a></li>
+				<li><a href="Eventos.html" target="_blank">Eventos</a></li>
+				<li><a href="Blog.html" target="_blank">Blog</a></li>
+				<li><a href="sobreNosotros.html" target="_blank">Sobre nosotros</a></li>
+			</ul>
+		</nav>
+	</header>
+  <main>
+    <!-- Header -->
+		<section class = "usuario"> 
+			<!--Preguntar a profe si nos deja divs :( -->
+			<img src = "user.png" alt="imagen usuario" class="AvatarUsuario"> 
+			<a href="modificarUser.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAIdJREFUSEtjZKAxYKSx+QwjyAIuLi5/JiamDgYGhv///v0r+fbt2zZigpfoIOLm5n7CyMgoDTX03pcvX5SpbcFDRkZGOZCh////f/D161dFqloADaKu//////j//38l1YOIGNdiU0N0HNDcgtFURDCIR1MRsUE0WhbhDqnRVEQwFZGrgOalKQBEBWYZ5KDj3AAAAABJRU5ErkJggg==" alt=""/></a><!--Tres puntitos, formulario desplegable para acceder a mi cuenta, mi suscripcion, notis y eventos -->
+			<button type="submit" class="activar"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbxJREFUSEvd1UuIjlEYB/DfsJhBNiIL9wVZWMhictkol41SQlnI1sLOpZHdLCbl1iwsZDOLSYoUayIpxYaNZCHsZJKUCA3OM513er19b9/r/fo2zuqc5zzn/38u/3POgD6PgT7jqxIswhGMdyA+iMlsP4TbHXyOYwKfir0ywSDuYyuO4mp2mp/Xo1iYbZ8R6yv4lm3HcBkPsQPTYS8TxGY4vcdmvMNOXE8HF9eU8gMOJMBHWI2nWIILOFUmWIE3mINNeI59uIm5Xfr0E3twF8N4grAtSwFPFRmM4Qyu4TCW4jUWNBRBZL0WX3AHe9P8ZCrpxYLgWWraRmzPNTyfHRriz7idwCWEGG7kjHYXBNGoodzEiCLqv/Jf0PE4gW7DerzEW6wpCH7jeyYJ3F8VATThCmmGzEMQU/gY8zqCIGwzAm8evqae/sBg3U3uheCvwP5PglVZAW16ELc5FDg7qiVaXrr2bQhCmlvyczNzvkrwCuvaIJfOvMCGTq9p2NqqpxrTbODVDB7k56KXJO5hV10GvQB3PNv0yzydbuXZCsIIznWLqClB+MULuz8D3sofSteeNSXoFmjtft8J/gChuk4ZGk5scQAAAABJRU5ErkJggg==" alt=""/></button>
+			<p class = "nombreUser">Nombre Usuario</p>
+			<p class= "karma">Karma: 0 pnts &nbsp; &#9728;</p>
+			<p class = "logros">LOGROS</p> <!--Aquí dentro irán los logros que el usuario consiga -->
+		</section>
+		<section>
+			<h3>EVENTOS</h3>
+			<nav class="slider-container">
+				<ul class="slider">
+					<li class="eventos" style="list-style: none;">
+						<!--lo que hay dentro del slider-->
+						<div class="botonUnirse">
+							<h3>TÍTULO EVENTO</h3>
+							<img src="evento.jpg" width="300" height="300" alt="Imagen Evento">
+							<p>Descripción del evento.</p>
+							<img src="./img/user.png" alt="Imagen Usuario"/>
+							<p>Usuario </p>
+							<a href="leerMasEventos.html" target="_blank">LEER MÁS</a>
+							<button>UNIRSE</button>
+						</div>
+					</li>
+					<li class="eventos" style="list-style: none;">
+						<!--lo que hay dentro del slider-->
+							
+						<div class="botonUnirse">
+							<h3>TÍTULO EVENTO</h3>
+							<img src="evento.jpg" width="300" height="300" alt="Imagen Evento">
+							<p>Descripción del evento.</p>
+							<img src="./img/user.png" alt="Imagen Usuario"/>
+							<p>Usuario </p>
+							<a href="leerMasEventos.html" target="_blank">LEER MÁS</a>
+							<button>UNIRSE</button>
+						</div>
+					</li>
+					<!--<li class="eventos" style="list-style: none;">
+						lo que hay dentro del slider
+							<img src="" alt="" class="imgEvento">
+							<div class="botonUnirse">
+								<div class="texto"> Unirse </div>
+							</div>
+					</li>-->
+				</ul>
+				<button class="prevBtnSlider">&#10094;</button>
+				<button class="nextBtnSlider">&#10095;</button>
+			</nav>
+		</section>
+		</main>
+		<section class="calendario"> <!--Esta seria una opción o ponerlo manual y cambiarlo con js-->
+			<iframe src="https://calendar.google.com/calendar/embed?height=250&wkst=2&ctz=Europe%2FMadrid&showPrint=0&showTz=0&title=Eventos&src=ZTQxZjg3YmExYjcyZWIzMjJhY2IyZWIzNjJiYzE4NDRmMjMyYzY4MjYxZTdhZTlhOGE5OGU0NjI5NTAwMzQzZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23E4C441" style="border:solid 1px #777" width="300" height="250" frameborder="0" ></iframe> <!--scrolling="no", hay que ponerlo con CSS -->
+		</section>
+		<aside>
+			<div class ="post"><!--Post que ha publicado el usuario-->
+				<h3>Título Blog</h3>
+                <p>Nombre del usuario al lado de la foto</p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAArlJREFUSEvFlluIjlEUhp9xiqSEyaFEzuVKIqKUXKLkgiuhFCkhhJqUUyQhUhQlFwp3uOKC5JCQU+RULhAhLhwS4nuntf/2v9vf3t/8M5pVU9P/7bXedXzXaqKTpKmTcGkrcBdgMjACGGJOvwVeAreAv1UDqQo8DNgMzAf6lxj/AJwFdgKvcw7kgHsALcCGwqD+ryI/gR3mwJ8yhRTwYOBc8TexClrkzRXL0KeYfhnwcOAGMKhBUKem2k8BPoZ2YsB9gdvAyHaCOvW7wHTgh28vBnwcWJIB/Q08tTfjgK6Z97uBjSngscATSI7ZGWAF4Go3oBito8C8BPh3QOVT57dKGLEMLEsYUNo0x2G3quPvA4q+TLYWc74lBqx0fQb6JJRXAodLvq8tdPcmdFWammN+xDOAy5lazQYulLzRN41fSsYAz8NULwJOZBTXAPsbjFhqc51zfsTrgD0Z4EfABEBd7Us34DEwOqO/GjgQRpyrkbN5Glhu/aDfmoEjma52usLYFwIvBE5lPHafFbHGrrtFmZtjp7cAkON14yRqE03+T5lkrFgHrF37zlIXA9euFfGrqxXtN3vUGxgPzDFqLHP8DTDU7eyQQDSjYqVQ7gGLjSRSGVFEJ4uSiQFDUW1V41YJgUdZNOpSJ+8touh6iwDoMnkI9PO+/bKrpXYgxJbEMWCpp/QFmFWk8k7F4mt/XyrmXVvOyUFgla8fA5anN4OZ/ApsBw55tQ39ENXK+KaCD1R3Jw+AaYBs1KTsENAxdx0YGFjXlrkIXAOe2TrU3hbdzgR6Be9f2SGgctVJ6vRRrc4bU1XMct2zq0YqbTp9nIWetsrWV1j2TkfH3jZgV2R9ZlMdRigOVu207P2m8d8pnToSdG20+7wNHRA1TgV0Z+sKFanooH9hjNThB30jNU7q5A76Dgd0Bv8BIyR2H9l/W1MAAAAASUVORK5CYII=" alt="Imagen Usuario"/>
+                <p>Categoría</p>
+                <p>Descripción del post</p>
+                <img alt="like" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAolJREFUSEvNlkuITmEYx3/DmJqYSZmNLIYkymiyMBsLYtyvSaaEhcvOLNggW2WyUbJk45JLIZcZynVWUhaGEprCShYuxYIZE+9/ej69vc57znfOd2o8NTXn/Z7z/J77e+oYI6kbIy7/NXg8MBuoB14AvyNZGge0Ab+A18BIWjbTIl7lYEeAecAEM/ITeAIcBB7b2UKgB+gAGuxsGBgADgH3khxIAgsiQ/sz6n/cHNqboXcMOGyZ+KuaBD4PbDWNL8BpoNee1wC7gckB7A0gR17Z+VxgHzDTns8CO/x3QvA2pywlyX1grUvrjwDS6NLaByy287vA+gS9iebwItPrAi5XbPlgNdF7YBrwFZgDfIykcZJlQj/vAr5H9KZaozUBg8CsJPASi1K/qb5KXRlywHpGtha4LD7VP37E3cAJI7UDz8ugWrdrEiTbgXMhWCNy1BRagE8lgVuBd2ZrD3AqBO/06rYcUNOUIZvcLrhihtSsoxPip3o68NbrVMHLkIc2AVoqU4BvIVjP14CNRtMsX6iRrJqeMRsnXfnUR6MSzvEMB34GNLttIw81n3cKwrVyb9iO/2B7/HMMrPOlwG1bh0XhK4BbBtWl0Qn0+wHELomVwHVb+kPAhhyRL7MG0s6X41qz/zRq2u0k+E3zWnCl7kFG2n2obrJ1senI+hBQjTUKuou1s+V9DB5C5fijmKNZYL1XDTwXNKmrYw4KfhXQRRJGnhuaByzdze7GuhjA5Yg2kRpJNU1NbzVdHYt8iy0VfV8pctVef2q+1d7tljn61dQ4NKLILwGCS3JFmrZAMr11l7q+VLQKK2OmfZxLikRcAcy3aF/mIkZ2dREbhd6pJeJCwFprXBNUL/8B9R98H865vakAAAAASUVORK5CYII="/>                
+                <img alt="repost" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAWZJREFUSEvt1s9KHEEQx/HP3kQCvoN/SG4mwXs8hEAIEkTRNxBfIn99CfENYnJICEEQD3pX0WNQfAchYG7JVpiRYZmd6V4GzWEL+jLdVd+qX1PV03NP1rsnrjH4zpQfSz0o9VOcDnxcRKw2+40vuKw72CT1Er7hNb5XnN/jXRu12N/Feg54Gud4gF+Yx1URIAd8NEyduooDdoyHlUx/YqFIIqXYQzxDMjgS+YGXNdH38Kov858EcjY47i6kHGax96FrcEi73Q9cyv8YU7jGWQGLajcR0jdZdsXVYK3ODeRW36Z2anX+H8Bz2Em4pg1cRMJdVvwRbxpUeIutcr9LcMTax/Ma+Nf+QFqufu8SHHGjC04wMzB8nuAmF5zQtv96u+z/RwV8smjFeGjKcXsbq6niT1hLoRZDpTp4VvAZL3CQ80jE2VmsYiIBHq0Xq2p1T2pSxQm80Y+Mf31G1y7Tcyx1pmCjH/8LWmZKH2h11ugAAAAASUVORK5CYII="/>
+			</div>
+			<div class ="post"><!--Post que ha publicado el usuario-->
+				<h3>Título Blog</h3>
+                <p>Nombre del usuario al lado de la foto</p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAArlJREFUSEvFlluIjlEUhp9xiqSEyaFEzuVKIqKUXKLkgiuhFCkhhJqUUyQhUhQlFwp3uOKC5JCQU+RULhAhLhwS4nuntf/2v9vf3t/8M5pVU9P/7bXedXzXaqKTpKmTcGkrcBdgMjACGGJOvwVeAreAv1UDqQo8DNgMzAf6lxj/AJwFdgKvcw7kgHsALcCGwqD+ryI/gR3mwJ8yhRTwYOBc8TexClrkzRXL0KeYfhnwcOAGMKhBUKem2k8BPoZ2YsB9gdvAyHaCOvW7wHTgh28vBnwcWJIB/Q08tTfjgK6Z97uBjSngscATSI7ZGWAF4Go3oBito8C8BPh3QOVT57dKGLEMLEsYUNo0x2G3quPvA4q+TLYWc74lBqx0fQb6JJRXAodLvq8tdPcmdFWammN+xDOAy5lazQYulLzRN41fSsYAz8NULwJOZBTXAPsbjFhqc51zfsTrgD0Z4EfABEBd7Us34DEwOqO/GjgQRpyrkbN5Glhu/aDfmoEjma52usLYFwIvBE5lPHafFbHGrrtFmZtjp7cAkON14yRqE03+T5lkrFgHrF37zlIXA9euFfGrqxXtN3vUGxgPzDFqLHP8DTDU7eyQQDSjYqVQ7gGLjSRSGVFEJ4uSiQFDUW1V41YJgUdZNOpSJ+8touh6iwDoMnkI9PO+/bKrpXYgxJbEMWCpp/QFmFWk8k7F4mt/XyrmXVvOyUFgla8fA5anN4OZ/ApsBw55tQ39ENXK+KaCD1R3Jw+AaYBs1KTsENAxdx0YGFjXlrkIXAOe2TrU3hbdzgR6Be9f2SGgctVJ6vRRrc4bU1XMct2zq0YqbTp9nIWetsrWV1j2TkfH3jZgV2R9ZlMdRigOVu207P2m8d8pnToSdG20+7wNHRA1TgV0Z+sKFanooH9hjNThB30jNU7q5A76Dgd0Bv8BIyR2H9l/W1MAAAAASUVORK5CYII=" alt="Imagen Usuario"/>
+                <p>Categoría</p>
+                <p>Descripción del post</p>
+                <img alt="like" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAolJREFUSEvNlkuITmEYx3/DmJqYSZmNLIYkymiyMBsLYtyvSaaEhcvOLNggW2WyUbJk45JLIZcZynVWUhaGEprCShYuxYIZE+9/ej69vc57znfOd2o8NTXn/Z7z/J77e+oYI6kbIy7/NXg8MBuoB14AvyNZGge0Ab+A18BIWjbTIl7lYEeAecAEM/ITeAIcBB7b2UKgB+gAGuxsGBgADgH3khxIAgsiQ/sz6n/cHNqboXcMOGyZ+KuaBD4PbDWNL8BpoNee1wC7gckB7A0gR17Z+VxgHzDTns8CO/x3QvA2pywlyX1grUvrjwDS6NLaByy287vA+gS9iebwItPrAi5XbPlgNdF7YBrwFZgDfIykcZJlQj/vAr5H9KZaozUBg8CsJPASi1K/qb5KXRlywHpGtha4LD7VP37E3cAJI7UDz8ugWrdrEiTbgXMhWCNy1BRagE8lgVuBd2ZrD3AqBO/06rYcUNOUIZvcLrhihtSsoxPip3o68NbrVMHLkIc2AVoqU4BvIVjP14CNRtMsX6iRrJqeMRsnXfnUR6MSzvEMB34GNLttIw81n3cKwrVyb9iO/2B7/HMMrPOlwG1bh0XhK4BbBtWl0Qn0+wHELomVwHVb+kPAhhyRL7MG0s6X41qz/zRq2u0k+E3zWnCl7kFG2n2obrJ1senI+hBQjTUKuou1s+V9DB5C5fijmKNZYL1XDTwXNKmrYw4KfhXQRRJGnhuaByzdze7GuhjA5Yg2kRpJNU1NbzVdHYt8iy0VfV8pctVef2q+1d7tljn61dQ4NKLILwGCS3JFmrZAMr11l7q+VLQKK2OmfZxLikRcAcy3aF/mIkZ2dREbhd6pJeJCwFprXBNUL/8B9R98H865vakAAAAASUVORK5CYII="/>                
+                <img alt="repost" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAWZJREFUSEvt1s9KHEEQx/HP3kQCvoN/SG4mwXs8hEAIEkTRNxBfIn99CfENYnJICEEQD3pX0WNQfAchYG7JVpiRYZmd6V4GzWEL+jLdVd+qX1PV03NP1rsnrjH4zpQfSz0o9VOcDnxcRKw2+40vuKw72CT1Er7hNb5XnN/jXRu12N/Feg54Gud4gF+Yx1URIAd8NEyduooDdoyHlUx/YqFIIqXYQzxDMjgS+YGXNdH38Kov858EcjY47i6kHGax96FrcEi73Q9cyv8YU7jGWQGLajcR0jdZdsXVYK3ODeRW36Z2anX+H8Bz2Em4pg1cRMJdVvwRbxpUeIutcr9LcMTax/Ma+Nf+QFqufu8SHHGjC04wMzB8nuAmF5zQtv96u+z/RwV8smjFeGjKcXsbq6niT1hLoRZDpTp4VvAZL3CQ80jE2VmsYiIBHq0Xq2p1T2pSxQm80Y+Mf31G1y7Tcyx1pmCjH/8LWmZKH2h11ugAAAAASUVORK5CYII="/>
+			</div>
+			<div class ="post"><!--Post que ha publicado el usuario-->
+				<h3>Título Blog</h3>
+                <p>Nombre del usuario al lado de la foto</p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAArlJREFUSEvFlluIjlEUhp9xiqSEyaFEzuVKIqKUXKLkgiuhFCkhhJqUUyQhUhQlFwp3uOKC5JCQU+RULhAhLhwS4nuntf/2v9vf3t/8M5pVU9P/7bXedXzXaqKTpKmTcGkrcBdgMjACGGJOvwVeAreAv1UDqQo8DNgMzAf6lxj/AJwFdgKvcw7kgHsALcCGwqD+ryI/gR3mwJ8yhRTwYOBc8TexClrkzRXL0KeYfhnwcOAGMKhBUKem2k8BPoZ2YsB9gdvAyHaCOvW7wHTgh28vBnwcWJIB/Q08tTfjgK6Z97uBjSngscATSI7ZGWAF4Go3oBito8C8BPh3QOVT57dKGLEMLEsYUNo0x2G3quPvA4q+TLYWc74lBqx0fQb6JJRXAodLvq8tdPcmdFWammN+xDOAy5lazQYulLzRN41fSsYAz8NULwJOZBTXAPsbjFhqc51zfsTrgD0Z4EfABEBd7Us34DEwOqO/GjgQRpyrkbN5Glhu/aDfmoEjma52usLYFwIvBE5lPHafFbHGrrtFmZtjp7cAkON14yRqE03+T5lkrFgHrF37zlIXA9euFfGrqxXtN3vUGxgPzDFqLHP8DTDU7eyQQDSjYqVQ7gGLjSRSGVFEJ4uSiQFDUW1V41YJgUdZNOpSJ+8touh6iwDoMnkI9PO+/bKrpXYgxJbEMWCpp/QFmFWk8k7F4mt/XyrmXVvOyUFgla8fA5anN4OZ/ApsBw55tQ39ENXK+KaCD1R3Jw+AaYBs1KTsENAxdx0YGFjXlrkIXAOe2TrU3hbdzgR6Be9f2SGgctVJ6vRRrc4bU1XMct2zq0YqbTp9nIWetsrWV1j2TkfH3jZgV2R9ZlMdRigOVu207P2m8d8pnToSdG20+7wNHRA1TgV0Z+sKFanooH9hjNThB30jNU7q5A76Dgd0Bv8BIyR2H9l/W1MAAAAASUVORK5CYII=" alt="Imagen Usuario"/>
+                <p>Categoría</p>
+                <p>Descripción del post</p>
+                <img alt="like" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAolJREFUSEvNlkuITmEYx3/DmJqYSZmNLIYkymiyMBsLYtyvSaaEhcvOLNggW2WyUbJk45JLIZcZynVWUhaGEprCShYuxYIZE+9/ej69vc57znfOd2o8NTXn/Z7z/J77e+oYI6kbIy7/NXg8MBuoB14AvyNZGge0Ab+A18BIWjbTIl7lYEeAecAEM/ITeAIcBB7b2UKgB+gAGuxsGBgADgH3khxIAgsiQ/sz6n/cHNqboXcMOGyZ+KuaBD4PbDWNL8BpoNee1wC7gckB7A0gR17Z+VxgHzDTns8CO/x3QvA2pywlyX1grUvrjwDS6NLaByy287vA+gS9iebwItPrAi5XbPlgNdF7YBrwFZgDfIykcZJlQj/vAr5H9KZaozUBg8CsJPASi1K/qb5KXRlywHpGtha4LD7VP37E3cAJI7UDz8ugWrdrEiTbgXMhWCNy1BRagE8lgVuBd2ZrD3AqBO/06rYcUNOUIZvcLrhihtSsoxPip3o68NbrVMHLkIc2AVoqU4BvIVjP14CNRtMsX6iRrJqeMRsnXfnUR6MSzvEMB34GNLttIw81n3cKwrVyb9iO/2B7/HMMrPOlwG1bh0XhK4BbBtWl0Qn0+wHELomVwHVb+kPAhhyRL7MG0s6X41qz/zRq2u0k+E3zWnCl7kFG2n2obrJ1senI+hBQjTUKuou1s+V9DB5C5fijmKNZYL1XDTwXNKmrYw4KfhXQRRJGnhuaByzdze7GuhjA5Yg2kRpJNU1NbzVdHYt8iy0VfV8pctVef2q+1d7tljn61dQ4NKLILwGCS3JFmrZAMr11l7q+VLQKK2OmfZxLikRcAcy3aF/mIkZ2dREbhd6pJeJCwFprXBNUL/8B9R98H865vakAAAAASUVORK5CYII="/>                
+                <img alt="repost" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAWZJREFUSEvt1s9KHEEQx/HP3kQCvoN/SG4mwXs8hEAIEkTRNxBfIn99CfENYnJICEEQD3pX0WNQfAchYG7JVpiRYZmd6V4GzWEL+jLdVd+qX1PV03NP1rsnrjH4zpQfSz0o9VOcDnxcRKw2+40vuKw72CT1Er7hNb5XnN/jXRu12N/Feg54Gud4gF+Yx1URIAd8NEyduooDdoyHlUx/YqFIIqXYQzxDMjgS+YGXNdH38Kov858EcjY47i6kHGax96FrcEi73Q9cyv8YU7jGWQGLajcR0jdZdsXVYK3ODeRW36Z2anX+H8Bz2Em4pg1cRMJdVvwRbxpUeIutcr9LcMTax/Ma+Nf+QFqufu8SHHGjC04wMzB8nuAmF5zQtv96u+z/RwV8smjFeGjKcXsbq6niT1hLoRZDpTp4VvAZL3CQ80jE2VmsYiIBHq0Xq2p1T2pSxQm80Y+Mf31G1y7Tcyx1pmCjH/8LWmZKH2h11ugAAAAASUVORK5CYII="/>
+			</div>
+		</aside>
+	<footer>
+		<img src="./img/Logo.jpg" class="logo" align ="center" alt="logofooter" width="50" height="50"><!--posicionar el logotipo --> 
+		<h5>Nuestras páginas</h5>
+		<ul>
+			<li><a href="INDEX.html" target="_blank">Nuestros animales</a></li>
+			<li><a href="logros.html" target="_blank">Logros</a></li>
+			<li><a href="Blog.html" target="_blank">Blog</a></li>
+			<li><a href="Eventos.html" target="_blank">Eventos</a></li>
+			<li><a href="AnimalesSalvados.html" target="_blank">Animales salvados</a></li>
+			
+		</ul>
+		<h5>Sobre Nosotros</h5>
+		<ul>
+			<li><a href="sobreNosotros.html" target="_blank">Quienes somos</a></li>
+			<li><a href="contacto.html" target="_blank">Contacto</a></li>
+			<li><a href="newsletters.html" target="_blank">Newsletters</a></li>
+		</ul>
+		
+		<div class="a" align="center">
+			<table cellpadding="20">
+				<caption><h2> SÍGUENOS </h2></caption>
+				<tr>
+					<td>
+						<a href="" target="_blank" rel="noopener noreferrer" title="Instagram de x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAwFJREFUSEvllknojlEUxn9/YxmKIvOQzGVmQ4awQyTFQhSxsDNECRkShdgoC1PJwsKQaUPJUGRORKLIlFJk2hnOo/PW7br3fb/PhnLr663v3nuee57znKGBv7Qa/hIu/zxwJ6A30LiCoW/AE+BNFZNlHncEtgFTgLZVhqL998AZYGXuETlggR0x4JZu8AtwB5BHZasZMBxo7oc+A7OBs/GlFHAL4Ckgjw/Ydw9wqwbQwnYTYCywwb+vgT7m/dcQPAWsC+vc4zl1UqzjPf3OM+ACMMEfsb4K+CXQxT1+WyfwUA+Jrg1wyu8Cr4CuZcCiV4p85BdTuHrUdGA08AO4Chz3e/0tpg/90jBAoJ+AVkB74F1hMKZawlA8r3h8YuDFZmQ70Dra+AgsBfZHVOuY9NILGATczwFLFJc8FaZGxpc7qEB2AbeBpsBgB5VXAtdeuO45qBgSO79W7PFk4JxTNzO4LdpuOFUjPGah8e7+EDEh1h4Em6J7iDMoJkuBjxots4LLGy2d1gLLgJ0Zwa0CtgJrjInNwRkxo4ePAy7ngCcB5xMenwJEvX6qSKklhvTg+NHSjFhQWl3MAWtTuXfaRDYtsH7ClSw1n6wTWCEaadqZ6LaTVBfAMi6QYqmgqLCsMEXvyACvdor13RKcuQlIF+NduKXAscfdPLdV9lQkVBDC1cMLh8plv6gx1CSuMZ7DimOcTkusCOw2r1X4lTLyRE1BilUaqcYvsgq1N3qUFD7QtDHK7yQ9lvqkwlwBkWFRnSogUvy+RBiKAqIHKqeTwKqnL4DnQQWKbalkzrB8Fztqk9esiBzL9N1G3pXUJhUu9YEksCaMD15bO9cySWSEVvwtNUvVCk+bsLWm2qJitNB66GEbY+ZWGK7aLtqi+vqC8HAKuB3w2McdTQ6bgOvWo79Xofh+MQjonsKhMahv2Jl0Ljf6zLcYHwyA/nT0kYl5wKH40WXDnmqrlKoKJpHUs8SOaoEyQN3ut1XLXN2hZCjIPUbDQOn0UgtwPZ7WfPb/A/4J2ZGeH3LGl1YAAAAASUVORK5CYII=" alt=""/></a>
+					</td>
+					<td>
+						<a href="" target="_blank" rel="noopener noreferrer" title="Facebook de x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAASFJREFUSEvt161KBVEUBeDvvoCCTQQFMVgUwWrwJ1isBkHEdzBabSbFbDT4BDYFsWoyWAyKaDGIyaQzcAYOA9eZC2eYy+hpZxjWYq219549PS2dXku8hop4EtOJnXjEU4xZVjyOF5I78Y0JvBbkZeJlXCZWW8Ct4KozxF84xD3egqo5HEfuJVec18QaHkoRLWXPr5skXu1TF40Sf2IkUjWPo9AVo1hoSvEtFiPw8yznzT5dkTTjG+SWFucC650jfsZOUPWBu1LGY+G+gb2UGedtM1tjuh1gvw3is6y3t1ISv+MkAOZfnNMIfBsz4b6LqZTEsct/o6r/FXd/cjWS8aDLXt12qlz2cjWDrLe/zerYmcr1tsYITvPKUP1JpJFUgfIDKWhhH+ggzngAAAAASUVORK5CYII=" alt=""/></a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</footer>
+  </body>
+</html>
