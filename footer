@@ -1,5 +1,5 @@
 <footer>
-	<img src="" class="logo" align ="center"><!--posicionar el logotipo --> 
+	<img src="" class="logo" align ="center" alt="logo footer"><!--posicionar el logotipo --> 
 	<h5>Nuestras páginas</h5>
 	<ul>
 		<li><a href="" target="_blank">Nuestros animales</a></li>
