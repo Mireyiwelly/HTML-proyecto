@@ -5,15 +5,14 @@
     <title>Slider</title>
 </head>
 <body>
-<!-- Animales que más hemos rescatado TOP3 -->
+    <!-- Animales que más hemos rescatado TOP3 -->
     <nav class="slider">
-        <button class="prev">&#10094</button>
+        <button class="prev">&#10094;</button>
         <div class="image-slider">
-          <img src="" alt="Image 1">
+          <img src="./img/ImagenSlider.jpg" alt="Image 1" width="80">
           <p>Título Animal</p>
         </div>
-        <button class="next">&#10095</button>
+        <button class="next">&#10095;</button>
       </nav>
 </body>
 </html>
-
