@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear Evento</title>
+</head>
+<body>
+    <section>
+        <h1>CREA TU EVENTO</h1>
+        <form action="">
+            <label for="nombreEvento">Nombre del evento: </label>
+            <br>
+            <input type="text" id="nombreEvento">
+            <br>
+            <label for="descripcionEvento">Descripción del evento:</label>
+            <br>
+            <textarea id="descripcionEvento"></textarea>
+            <br>
+            <label for="ubicacionEvento">Ubicación:</label>
+            <br>
+            <input type="text" id="ubicacionEvento">
+            <br>
+            <label for="tipoEvento">Tipo de evento: </label>
+            <br>
+            <select id="tipoEvento">
+                <option value="manifestacion">Manifestación</option>
+                <option value="adopcion">Adoptar animales</option>
+            </select>
+            <br>
+            <label for="imgEvento">Imagen del evento:</label>
+            <br>
+            <input type="file" accept="image/*" id="imgEvento">
+            <br>
+            <p class="">i -> Una vez creado, debes esperar a que un administrador lo apruebe.</p>
+            <button>CANCELAR</button> 
+            <button type="submit">¡CREAR EVENTO!</button> 
+        </form>
+    </section> 
+</body>
+</html>
