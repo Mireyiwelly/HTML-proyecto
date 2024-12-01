@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Modificar Eventos</title>
+</head>
+<body>
+    <section>
+        <h1>MODIFICA EL EVENTO</h1>
+        <form>
+            <label for="nombreEvento">Nuevo nombre: </label>
+            <br>
+            <input type="text" id="nombreEvento">
+            <br>
+            <label for="descripcionEvento">Nueva descripción: </label>
+            <br>
+            <textarea id="descripcionEvento"></textarea>
+            <br>
+            <label for="ubicacionEvento">Nueva ubicación:</label>
+            <br>
+            <input type="text" id="ubicacionEvento">
+            <br>
+            <label for="tipoEvento">Cambiar el tipo: </label>
+            <br>
+            <select id="tipoEvento">
+                <option value="manifestacion">Manifestación</option>
+                <option value="adopcion">Adoptar animales</option>
+            </select>
+            <br>
+            <label for="imgEvento">Cambiar imagen:</label>
+            <br>
+            <input type="file" accept="image/*" id="imgEvento">
+            <br>
+            <br>
+            <p>i -> Una vez modificado, debes esperar a que un administrador lo apruebe.</p>
+            <button>CANCELAR</button> 
+            <button type="submit">MODIFICAR EL EVENTO</button> 
+        </form>
+    </section> 
+</body>
+</html>
