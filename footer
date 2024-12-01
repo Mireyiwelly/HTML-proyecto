@@ -1,34 +1,31 @@
 <footer>
-			<img src="" class="logo" align ="center"><!--posicionar el logotipo --> 
-			<h5>Nuestras páginas</h5>
-			<ul>
-				<li><a href="" target="_blank">Nuestros animales</a></li>
-				<li><a href="" target="_blank">Logros</a></li>
-				<li><a href="" target="_blank">Blog</a></li>
-				<li><a href="" target="_blank">Eventos</a></li>
-				<li><a href="" target="_blank">Animales salvados</a></li>
-				
-			</ul>
-			<h5>Sobre Nosotros</h5>
-			<ul>
-				<li><a href="" target="_blank">Quienes somos</a></li>
-				<li><a href="" target="_blank">Contacto</a></li>
-				<li><a href="" target="_blank">Newsletters</a></li>
-			</ul>
-			
-			
-			<div class="a" align="center">
-				<table cellpadding="20">
-					<caption><h2> SÍGUENOS </h2></caption>
-					<tr>
-						<td>
-							<a href="" target="_blank" rel="noopener noreferrer" title="Instagram de x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAwFJREFUSEvllknojlEUxn9/YxmKIvOQzGVmQ4awQyTFQhSxsDNECRkShdgoC1PJwsKQaUPJUGRORKLIlFJk2hnOo/PW7br3fb/PhnLr663v3nuee57znKGBv7Qa/hIu/zxwJ6A30LiCoW/AE+BNFZNlHncEtgFTgLZVhqL998AZYGXuETlggR0x4JZu8AtwB5BHZasZMBxo7oc+A7OBs/GlFHAL4Ckgjw/Ydw9wqwbQwnYTYCywwb+vgT7m/dcQPAWsC+vc4zl1UqzjPf3OM+ACMMEfsb4K+CXQxT1+WyfwUA+Jrg1wyu8Cr4CuZcCiV4p85BdTuHrUdGA08AO4Chz3e/0tpg/90jBAoJ+AVkB74F1hMKZawlA8r3h8YuDFZmQ70Dra+AgsBfZHVOuY9NILGATczwFLFJc8FaZGxpc7qEB2AbeBpsBgB5VXAtdeuO45qBgSO79W7PFk4JxTNzO4LdpuOFUjPGah8e7+EDEh1h4Em6J7iDMoJkuBjxots4LLGy2d1gLLgJ0Zwa0CtgJrjInNwRkxo4ePAy7ngCcB5xMenwJEvX6qSKklhvTg+NHSjFhQWl3MAWtTuXfaRDYtsH7ClSw1n6wTWCEaadqZ6LaTVBfAMi6QYqmgqLCsMEXvyACvdor13RKcuQlIF+NduKXAscfdPLdV9lQkVBDC1cMLh8plv6gx1CSuMZ7DimOcTkusCOw2r1X4lTLyRE1BilUaqcYvsgq1N3qUFD7QtDHK7yQ9lvqkwlwBkWFRnSogUvy+RBiKAqIHKqeTwKqnL4DnQQWKbalkzrB8Fztqk9esiBzL9N1G3pXUJhUu9YEksCaMD15bO9cySWSEVvwtNUvVCk+bsLWm2qJitNB66GEbY+ZWGK7aLtqi+vqC8HAKuB3w2McdTQ6bgOvWo79Xofh+MQjonsKhMahv2Jl0Ljf6zLcYHwyA/nT0kYl5wKH40WXDnmqrlKoKJpHUs8SOaoEyQN3ut1XLXN2hZCjIPUbDQOn0UgtwPZ7WfPb/A/4J2ZGeH3LGl1YAAAAASUVORK5CYII=" alt=""/></a>
-						</td>
-						<td>
-							<a href="" target="_blank" rel="noopener noreferrer" title="Facebook de x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAASFJREFUSEvt161KBVEUBeDvvoCCTQQFMVgUwWrwJ1isBkHEdzBabSbFbDT4BDYFsWoyWAyKaDGIyaQzcAYOA9eZC2eYy+hpZxjWYq219549PS2dXku8hop4EtOJnXjEU4xZVjyOF5I78Y0JvBbkZeJlXCZWW8Ct4KozxF84xD3egqo5HEfuJVec18QaHkoRLWXPr5skXu1TF40Sf2IkUjWPo9AVo1hoSvEtFiPw8yznzT5dkTTjG+SWFucC650jfsZOUPWBu1LGY+G+gb2UGedtM1tjuh1gvw3is6y3t1ISv+MkAOZfnNMIfBsz4b6LqZTEsct/o6r/FXd/cjWS8aDLXt12qlz2cjWDrLe/zerYmcr1tsYITvPKUP1JpJFUgfIDKWhhH+ggzngAAAAASUVORK5CYII=" alt=""/></a>
-						</td>
-					</tr>
-				</table>
-			
-			</div>
+	<img src="" class="logo" align ="center"><!--posicionar el logotipo --> 
+	<h5>Nuestras páginas</h5>
+	<ul>
+		<li><a href="" target="_blank">Nuestros animales</a></li>
+		<li><a href="" target="_blank">Logros</a></li>
+		<li><a href="" target="_blank">Blog</a></li>
+		<li><a href="" target="_blank">Eventos</a></li>
+		<li><a href="" target="_blank">Animales salvados</a></li>
+	</ul>
+	<h5>Sobre Nosotros</h5>
+	<ul>
+		<li><a href="" target="_blank">Quienes somos</a></li>
+		<li><a href="" target="_blank">Contacto</a></li>
+		<li><a href="" target="_blank">Newsletters</a></li>
+	</ul>
+	
+	<div class="a" align="center">
+		<table cellpadding="20">
+			<caption><h2> SÍGUENOS </h2></caption>
+			<tr>
+				<td>
+					<a href="" target="_blank" rel="noopener noreferrer" title="Instagram de x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAwFJREFUSEvllknojlEUxn9/YxmKIvOQzGVmQ4awQyTFQhSxsDNECRkShdgoC1PJwsKQaUPJUGRORKLIlFJk2hnOo/PW7br3fb/PhnLr663v3nuee57znKGBv7Qa/hIu/zxwJ6A30LiCoW/AE+BNFZNlHncEtgFTgLZVhqL998AZYGXuETlggR0x4JZu8AtwB5BHZasZMBxo7oc+A7OBs/GlFHAL4Ckgjw/Ydw9wqwbQwnYTYCywwb+vgT7m/dcQPAWsC+vc4zl1UqzjPf3OM+ACMMEfsb4K+CXQxT1+WyfwUA+Jrg1wyu8Cr4CuZcCiV4p85BdTuHrUdGA08AO4Chz3e/0tpg/90jBAoJ+AVkB74F1hMKZawlA8r3h8YuDFZmQ70Dra+AgsBfZHVOuY9NILGATczwFLFJc8FaZGxpc7qEB2AbeBpsBgB5VXAtdeuO45qBgSO79W7PFk4JxTNzO4LdpuOFUjPGah8e7+EDEh1h4Em6J7iDMoJkuBjxots4LLGy2d1gLLgJ0Zwa0CtgJrjInNwRkxo4ePAy7ngCcB5xMenwJEvX6qSKklhvTg+NHSjFhQWl3MAWtTuXfaRDYtsH7ClSw1n6wTWCEaadqZ6LaTVBfAMi6QYqmgqLCsMEXvyACvdor13RKcuQlIF+NduKXAscfdPLdV9lQkVBDC1cMLh8plv6gx1CSuMZ7DimOcTkusCOw2r1X4lTLyRE1BilUaqcYvsgq1N3qUFD7QtDHK7yQ9lvqkwlwBkWFRnSogUvy+RBiKAqIHKqeTwKqnL4DnQQWKbalkzrB8Fztqk9esiBzL9N1G3pXUJhUu9YEksCaMD15bO9cySWSEVvwtNUvVCk+bsLWm2qJitNB66GEbY+ZWGK7aLtqi+vqC8HAKuB3w2McdTQ6bgOvWo79Xofh+MQjonsKhMahv2Jl0Ljf6zLcYHwyA/nT0kYl5wKH40WXDnmqrlKoKJpHUs8SOaoEyQN3ut1XLXN2hZCjIPUbDQOn0UgtwPZ7WfPb/A/4J2ZGeH3LGl1YAAAAASUVORK5CYII=" alt=""/></a>
+				</td>
+				<td>
+					<a href="" target="_blank" rel="noopener noreferrer" title="Facebook de x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAASFJREFUSEvt161KBVEUBeDvvoCCTQQFMVgUwWrwJ1isBkHEdzBabSbFbDT4BDYFsWoyWAyKaDGIyaQzcAYOA9eZC2eYy+hpZxjWYq219549PS2dXku8hop4EtOJnXjEU4xZVjyOF5I78Y0JvBbkZeJlXCZWW8Ct4KozxF84xD3egqo5HEfuJVec18QaHkoRLWXPr5skXu1TF40Sf2IkUjWPo9AVo1hoSvEtFiPw8yznzT5dkTTjG+SWFucC650jfsZOUPWBu1LGY+G+gb2UGedtM1tjuh1gvw3is6y3t1ISv+MkAOZfnNMIfBsz4b6LqZTEsct/o6r/FXd/cjWS8aDLXt12qlz2cjWDrLe/zerYmcr1tsYITvPKUP1JpJFUgfIDKWhhH+ggzngAAAAASUVORK5CYII=" alt=""/></a>
+				</td>
+			</tr>
+		</table>
+	</div>
 </footer>
