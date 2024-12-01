@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Logros</title>
+<meta name="description" content="Roughly 155 characters">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<style>
+</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<img src="./img/Logo.jpg"  alt="SAVE ANIMALS" width="50" height="50">
+			<a href="INDEX.html">HALLUCIGENIA</a>
+			<form method="get" id="search-form">
+			 <fieldset>
+				<input type="text" id="search-input" placeholder="Buscar" />
+				<input class="search-button" type="submit" value="Buscar" />
+				<i class="search-icon"></i>
+			 </fieldset>
+			</form>
+			<form action="InicioSesion.html">
+				<button type="submit" >Iniciar sesión / Registrarse</button>
+			</form>
+			<a href="perfil.html">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAArlJREFUSEvFlluIjlEUhp9xiqSEyaFEzuVKIqKUXKLkgiuhFCkhhJqUUyQhUhQlFwp3uOKC5JCQU+RULhAhLhwS4nuntf/2v9vf3t/8M5pVU9P/7bXedXzXaqKTpKmTcGkrcBdgMjACGGJOvwVeAreAv1UDqQo8DNgMzAf6lxj/AJwFdgKvcw7kgHsALcCGwqD+ryI/gR3mwJ8yhRTwYOBc8TexClrkzRXL0KeYfhnwcOAGMKhBUKem2k8BPoZ2YsB9gdvAyHaCOvW7wHTgh28vBnwcWJIB/Q08tTfjgK6Z97uBjSngscATSI7ZGWAF4Go3oBito8C8BPh3QOVT57dKGLEMLEsYUNo0x2G3quPvA4q+TLYWc74lBqx0fQb6JJRXAodLvq8tdPcmdFWammN+xDOAy5lazQYulLzRN41fSsYAz8NULwJOZBTXAPsbjFhqc51zfsTrgD0Z4EfABEBd7Us34DEwOqO/GjgQRpyrkbN5Glhu/aDfmoEjma52usLYFwIvBE5lPHafFbHGrrtFmZtjp7cAkON14yRqE03+T5lkrFgHrF37zlIXA9euFfGrqxXtN3vUGxgPzDFqLHP8DTDU7eyQQDSjYqVQ7gGLjSRSGVFEJ4uSiQFDUW1V41YJgUdZNOpSJ+8touh6iwDoMnkI9PO+/bKrpXYgxJbEMWCpp/QFmFWk8k7F4mt/XyrmXVvOyUFgla8fA5anN4OZ/ApsBw55tQ39ENXK+KaCD1R3Jw+AaYBs1KTsENAxdx0YGFjXlrkIXAOe2TrU3hbdzgR6Be9f2SGgctVJ6vRRrc4bU1XMct2zq0YqbTp9nIWetsrWV1j2TkfH3jZgV2R9ZlMdRigOVu207P2m8d8pnToSdG20+7wNHRA1TgV0Z+sKFanooH9hjNThB30jNU7q5A76Dgd0Bv8BIyR2H9l/W1MAAAAASUVORK5CYII=" alt=""/>
+			</a>
+		</nav>
+		<nav>
+			<span>&#9776;</span>
+			
+			<ul>
+				<li><a href="AnimalesSalvados.html" target="_blank">Animales rescatados</a></li>
+				<li><a href="Eventos.html" target="_blank">Eventos</a></li>
+				<li><a href="Blog.html" target="_blank">Blog</a></li>
+				<li><a href="sobreNosotros.html" target="_blank">Sobre nosotros</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>LOGROS</h1>
+		<!--Buscador -->
+		<form method="get" id="form-buscar">
+            <input type="text" id="search" placeholder="Buscar Logro"  />
+            <input class="search-button" type="submit" value="Buscar" />
+      </form> <!-- De momento dejo el boton, pero seguramente lo quitemos y para enviar tengas que darle al enter-->
+		<h2>Filtros</h2>
+		<div class="filtro">
+			<button id="localidad" class="filtrar">Localidad</button>
+			<button id="beneficio" class="filtrar">Beneficio</button>
+			<button id="ano" class="filtrar">
+			<!--LA UNICA FORMA QUE HE ENCONTRADO DE PODER FILTRAr por anyo-->
+			<form action="" method="POST" class="">
+				<input type="month" name="fecha" id="fecha" class="filtrar" value="2019-11">
+			</form></button>
+		</div>
+	
+		<!--<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAd5JREFUSEu11cvLTWEUx/HPGxnIpSiXiZAwcIuSAQpFL2XqUgxIURhQBv4AMiEhDCgk5Q+Q0VsImSAlopTIgFwi9+uz6nl1HO/e5xnssya7zn7O+j5rrd9v7R5djp4u51cHmIB1WInZ+SJ3cAkX8LzkcgMBRuAcVtck+I2L2IRPdaB2wFDcwgx8xUkcxpOcZDJ2YQuG5LOL8L0K0g44iw14hhV4UPHHWbicLjAeB7G7BDAT9/Aj9Xk+ot91sRhX8A2T8GKgw60VHMF2HMWOkgHiPNYnyF7s7wR4jCm5//cLAUvQh2vpGRX9F60VfEQMeRB+FQJGpWpf4w1GdwK8x3AMQ8BKIs5+wCuM6QS4mw01L3ngdkn2pKQFSW03c5uWdQIcSKbZgxPYVgg4kzyyMbUnBLKzE2AqHuJnoUzDYFdz0sqq2412Ktv/KZYnCT6qqGRONtrY7PatJUaLM62r4guO41B2dryPKmNVbMbgnDRmEK6PYdfKtP/lyGygVTVzeJd20b7U0rWYm12/FPH7P1G3ridml/Yids/nrK4bOIa3CB+E0WKdhwpDSeGJv9HEBycg1zEdsQ0W4mU/oQlA5AqThaKm5fmcbhoQ+cal9b4mfz8abVGtJ5tqUSWk64A/OxFWGSrrSC8AAAAASUVORK5CYII=" alt=""/>-->
+		<article class="logros">
+			<header><h2>Guardían de Gigantes Grises</h2></header>
+			<img src="img/logros/logro_ballena.png" alt="logro ballenas">
+			<h4>Participar en evento Ballenas grises</h4>
+			<p>Por contribuir en la salvación de la especie de ballenas grises</p>
+			<footer class="logro"> 
+				<p>Creación del logro: 10/03/2019 </p>
+				<p>1000 usuarios disponen de este logro</p> 
+			</footer>
+		</article>
+		<article class="logros">
+			<header><h2>Vigilante de las Cumbres</h2></header>
+			<img src="img/logros/logro_aguilas.png" alt="logro águilas">
+			<h4>Participar en evento Águilas Calvas</h4>
+			<p>Por contribuir en la salvación de la especie de águilas calvas</p>
+			<footer class="logro"> 
+				<p>Creación del logro: 24/05/2020 </p>
+				<p>1563 usuarios disponen de este logro</p> 
+			</footer>
+		</article>
+		<article class="logros">
+			<header><h2>El Último Tigre del Frío</h2></header>
+			<img src="img/logros/logro_tigre" alt="logro tigre ">
+			<h4>Participar en evento Tigre Siberiano</h4>
+			<p>Por contribuir en la salvación de la especie de tigres siberianos</p>
+			<footer class="logro"> 
+				<p>Creación del logro: 10/03/2019 </p>
+				<p>1000 usuarios disponen de este logro</p> 
+			</footer>
+		</article>
+		<!--Habrán más logros y aparte se irán creando en función de los eventos que se creen. Solo el admin de la página podrá crear estos logros y serán únicos por evento-->
+	</main>
+	<footer>
+	<img src="./img/Logo.jpg" class="logo" align ="center" alt="logofooter" width="50" height="50"><!--posicionar el logotipo --> 
+	<h5>Nuestras páginas</h5>
+	<ul>
+		<li><a href="INDEX.html" target="_blank">Nuestros animales</a></li>
+		<li><a href="logros.html" target="_blank">Logros</a></li>
+		<li><a href="Blog.html" target="_blank">Blog</a></li>
+		<li><a href="Eventos.html" target="_blank">Eventos</a></li>
+		<li><a href="AnimalesSalvados.html" target="_blank">Animales salvados</a></li>
+		
+	</ul>
+	<h5>Sobre Nosotros</h5>
+	<ul>
+		<li><a href="sobreNosotros.html" target="_blank">Quienes somos</a></li>
+		<li><a href="contacto.html" target="_blank">Contacto</a></li>
+		<li><a href="newsletters.html" target="_blank">Newsletters</a></li>
+	</ul>
+	
+	<div class="a" align="center">
+		<table cellpadding="20">
+			<caption><h2> SÍGUENOS </h2></caption>
+			<tr>
+				<td>
+					<a href="" target="_blank" rel="noopener noreferrer" title="Instagram de x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAwFJREFUSEvllknojlEUxn9/YxmKIvOQzGVmQ4awQyTFQhSxsDNECRkShdgoC1PJwsKQaUPJUGRORKLIlFJk2hnOo/PW7br3fb/PhnLr663v3nuee57znKGBv7Qa/hIu/zxwJ6A30LiCoW/AE+BNFZNlHncEtgFTgLZVhqL998AZYGXuETlggR0x4JZu8AtwB5BHZasZMBxo7oc+A7OBs/GlFHAL4Ckgjw/Ydw9wqwbQwnYTYCywwb+vgT7m/dcQPAWsC+vc4zl1UqzjPf3OM+ACMMEfsb4K+CXQxT1+WyfwUA+Jrg1wyu8Cr4CuZcCiV4p85BdTuHrUdGA08AO4Chz3e/0tpg/90jBAoJ+AVkB74F1hMKZawlA8r3h8YuDFZmQ70Dra+AgsBfZHVOuY9NILGATczwFLFJc8FaZGxpc7qEB2AbeBpsBgB5VXAtdeuO45qBgSO79W7PFk4JxTNzO4LdpuOFUjPGah8e7+EDEh1h4Em6J7iDMoJkuBjxots4LLGy2d1gLLgJ0Zwa0CtgJrjInNwRkxo4ePAy7ngCcB5xMenwJEvX6qSKklhvTg+NHSjFhQWl3MAWtTuXfaRDYtsH7ClSw1n6wTWCEaadqZ6LaTVBfAMi6QYqmgqLCsMEXvyACvdor13RKcuQlIF+NduKXAscfdPLdV9lQkVBDC1cMLh8plv6gx1CSuMZ7DimOcTkusCOw2r1X4lTLyRE1BilUaqcYvsgq1N3qUFD7QtDHK7yQ9lvqkwlwBkWFRnSogUvy+RBiKAqIHKqeTwKqnL4DnQQWKbalkzrB8Fztqk9esiBzL9N1G3pXUJhUu9YEksCaMD15bO9cySWSEVvwtNUvVCk+bsLWm2qJitNB66GEbY+ZWGK7aLtqi+vqC8HAKuB3w2McdTQ6bgOvWo79Xofh+MQjonsKhMahv2Jl0Ljf6zLcYHwyA/nT0kYl5wKH40WXDnmqrlKoKJpHUs8SOaoEyQN3ut1XLXN2hZCjIPUbDQOn0UgtwPZ7WfPb/A/4J2ZGeH3LGl1YAAAAASUVORK5CYII=" alt=""/></a>
+				</td>
+				<td>
+					<a href="" target="_blank" rel="noopener noreferrer" title="Facebook de x"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAASFJREFUSEvt161KBVEUBeDvvoCCTQQFMVgUwWrwJ1isBkHEdzBabSbFbDT4BDYFsWoyWAyKaDGIyaQzcAYOA9eZC2eYy+hpZxjWYq219549PS2dXku8hop4EtOJnXjEU4xZVjyOF5I78Y0JvBbkZeJlXCZWW8Ct4KozxF84xD3egqo5HEfuJVec18QaHkoRLWXPr5skXu1TF40Sf2IkUjWPo9AVo1hoSvEtFiPw8yznzT5dkTTjG+SWFucC650jfsZOUPWBu1LGY+G+gb2UGedtM1tjuh1gvw3is6y3t1ISv+MkAOZfnNMIfBsz4b6LqZTEsct/o6r/FXd/cjWS8aDLXt12qlz2cjWDrLe/zerYmcr1tsYITvPKUP1JpJFUgfIDKWhhH+ggzngAAAAASUVORK5CYII=" alt=""/></a>
+				</td>
+			</tr>
+		</table>
+	</div>
+</footer>
+</body>
+</html>
