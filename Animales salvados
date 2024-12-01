@@ -1,4 +1,18 @@
- <main>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Nuestros animales</title>
+    <meta name="description" content="Roughly 155 characters">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+	<style>
+	</style>
+  </head>
+  <body>
+  <!--Header-->
+  <main>
   <!--Los h4 van en cursiva-->
 	<h1>Animales rescatados del peligro de extinción</h1>	
 	<article class ="animales">
@@ -38,3 +52,6 @@
 		apenas quedaban 40 ejemplares en libertad, mientras hoy suman unos 450.</p>
 	</article>
   </main>
+  <!--footer-->
+  </body>
+  </html>
